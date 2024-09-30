@@ -44,33 +44,50 @@ As homes get smarter, security and safety need to evolve too. Instead of relying
 
 ## Project Timeline
 
-### **September**
-- **End of September**: 
-    - Research LLM agents and finalize the project setup.
-    - Team coordination and division of roles.
+### Week 1 (End of September)
+- Research LLM agents and finalize project setup.
+- Coordinate with team members, assign roles and responsibilities.
 
-### **October - Check-in 1**
-- **Early October**:
-    - Begin building the LLM agents and basic system functionality (e.g., fire and intruder detection).
-- **Mid October**:
-    - Conduct basic testing of the system with simulated inputs.
-    - **Check-in 1**: Present progress and adjust based on feedback.
+### Week 2 (Early October)
+- Build basic LLM agents for core functions (fire and intruder detection).
+- Set up development environment and test initial integration.
 
-### **November - Check-in 2**
-- **Early November**:
-    - Complete integration of additional features (e.g., stray animal detection).
-    - Develop the user interface for monitoring and alerts.
-- **Mid November**:
-    - Conduct full system testing to ensure real-time functionality.
-    - **Check-in 2**: Present nearly complete system, gather feedback, and refine.
+### Week 3 (Mid October)
+- Test LLM agents with simulated data for fire/intruder detection.
+- **Check-in 1**: Present progress, receive feedback, and adjust.
 
-### **December - Check-in 3**
-- **Early December**:
-    - Finalize the system and conduct final tests.
-    - Record the demonstration video.
-- **Mid December**:
-    - **Check-in 3**: Show the completed project for final feedback and make any necessary adjustments.
-    - Submit the final project.
+### Week 4 (Late October)
+- Refine LLM agents based on feedback.
+- Continue development and focus on system architecture.
+
+### Week 5 (Early November)
+- Integrate additional features (e.g., stray animal detection).
+- Start developing the user interface for monitoring and alerts.
+
+### Week 6 (Mid November)
+- Conduct full system test for real-time detection and response.
+- **Check-in 2**: Present near-final system and refine based on feedback.
+
+### Week 7 (Late November)
+- Finalize user interface and system integration.
+- Continue testing for stability and address any issues.
+
+### Week 8 (Early December)
+- Finalize LLM agents and test the entire system under real-world scenarios.
+- Polish system usability and user experience.
+
+### Week 9 (Mid December)
+- Record demonstration video, highlighting key features.
+- Prepare final technical and user documentation.
+- **Check-in 3**: Present final project and make last adjustments.
+
+### Week 10 (Late December)
+- Perform final system testing to ensure everything works smoothly.
+- Review demo video, documentation, and code for submission.
+
+### Week 11 (Submission Week)
+- Submit final project with demo video, complete documentation, and code.
+- Ensure all deliverables meet project requirements.
 
 ## References
 - Langchain Documentation: [Langchain Framework](https://python.langchain.com)
