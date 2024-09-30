@@ -90,7 +90,7 @@ As homes get smarter, security and safety need to evolve too. Instead of relying
 - Ensure all deliverables meet project requirements.
 
 ## References
-- Langchain Documentation: [Langchain Framework](https://python.langchain.com)
+- Langchain Documentation: [Langchain Framework]([https://python.langchain.com](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)
 - Research Papers and Tutorials on LLM applications (to be included as relevant to the project).
 
 ---
