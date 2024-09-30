@@ -34,12 +34,12 @@ As homes get smarter, security and safety need to evolve too. Instead of relying
 - Additional libraries: `langchain`, `opencv-python`, `numpy` (to handle image and video processing).
 
 ## Team Members Responsibilities
-- **Your Name**:
+- **Hemang Gandhi**:
   - **Lead Role**: Software implementation, algorithm design, and technical research.
   - **Tasks**: Implement the LLM agents, integrate them with sensor data, and ensure that the system runs smoothly.
   
 - **Manay Gala**:
-  - **Lead Role**: Setup, networking, and documentation.
+  - **Lead Role**: Setup, technical research and documentation.
   - **Tasks**: Handle the system setup, assist with networking aspects (if necessary), and write user and technical documentation.
 
 ## Project Timeline
