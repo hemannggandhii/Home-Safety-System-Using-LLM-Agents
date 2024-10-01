@@ -1,93 +1,83 @@
 # Home Safety System Using LLM Agents
 
 ## Motivation
-As homes get smarter, security and safety need to evolve too. Instead of relying on traditional systems that require manual configuration or preset rules, we’re aiming to build a system that thinks on its own. By using Large Language Models (LLMs), this project will create a home safety solution that detects dangers like intruders, fires, or even stray animals, and responds intelligently. Our goal is to make home safety smarter, more adaptable, and capable of real-time decision-making.
+Windows are one of the most vulnerable entry points in any home. Many home security systems rely on hardware sensors for window security, which may result in false alarms. This project aims to build a  solution using OpenCV and Large Language Models (LLMs) to detect tampering attempts on windows. By leveraging modern image processing techniques and AI reasoning, the system will identify suspicious activity in real-time and notify homeowners, offering a more intelligent and scalable security solution.
 
-## Design Goals
-- **Intelligent Decision-Making**: Build a system that can autonomously respond to different home safety threats (like fires or intruders) using LLM agents.
-- **Real-Time Alerts**: Ensure that the system can detect threats and notify users instantly.
-- **Easy to Use and Adapt**: Make the system simple to set up and flexible enough to fit different home environments and needs.
-- **Scalable**: Allow for easy scaling if additional sensors or features are needed in the future.
+## Design Goals:
+- Design a smart system that continuously monitors windows for suspicious activity in real-time using live video feeds.
+- Utilize OpenCV to detect potential break-ins or tampering by analyzing motion patterns and behaviors around the windows.
+- Reduce false positives by implementing algorithms to differentiate between normal activities (e.g., pets, wind) and genuine threats.
+- Implement a real-time alert system that immediately notifies homeowners of any suspicious activity, enabling prompt action.
 
 ## Deliverables
-- **LLM Agent Implementation**: Create and train LLM agents to reason and respond to different safety threats (e.g., fire detection or intruder alerts).
-- **Fully Functional Home Safety System**: A complete system that detects and alerts the user in real-time about home safety issues.
-- **User Documentation**: Clear and detailed documentation on how to set up, use, and troubleshoot the system.
-- **Final Demonstration**: A video demonstration showing the system in action, highlighting the features and functionality.
+- Fully functional window tampering detection system using OpenCV and LLM agents.
+- Evaluation of the system on multiple datasets, covering different scenarios.
+- Real time alerts via SMS or email when tampering is detected.
+- Performance analysis including accuracy, false positive rates, and adaptability across datasets.
+- Comprehensive user documentation for setup and usage.
 
 ## System Blocks
-1. **LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs (e.g., camera, sensors) and making decisions.
-2. **Sensor Integration**: Modules that process data from cameras or sensors (like motion detectors, smoke alarms) and feed this data to the LLM.
-3. **Notification System**: Alerts the user via phone or other devices when a threat is detected (e.g., SMS, push notifications).
-4. **User Interface**: A simple dashboard for users to monitor the system and configure alerts and settings.
-5. **Data Processing**: Handles the incoming data from various sensors and prepares it for analysis by the LLM.
+**LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs and making decisions.
+**Sensor Integration**: Modules that process data from cameras or sensors (like motion detectors, smoke alarms) and feed this data to the LLM.
+**Night Vision**: Enhances video processing for low-light conditions, ensuring 24/7 monitoring.
+**Dataset Integration**: Trains and tests the system on multiple datasets to handle various conditions like lighting and environment.
+**Notification System**: Alerts the user via phone or other devices when a threat is detected
+**Recording Module**: Records and stores footage of suspicious activity for later review.
+**Data Processing**: Handles the incoming data from various sensors and prepares it for analysis by the LLM.
 
 ## Hardware/Software Requirements
-### Hardware:
-- A computer (or access to Google Colab) with GPU support for faster processing.
-- Optional: Cameras or motion/temperature sensors to simulate real-world inputs.
-
-### Software:
-- **Python 3.x**: Core programming language for the project.
-- **Langchain Framework**: For building and integrating LLM agents.
-- **Google Colab**: For GPU processing and model training (if local GPU isn't available).
-- Additional libraries: `langchain`, `opencv-python`, `numpy` (to handle image and video processing).
+## Software Requirements
+- **Python**: Core programming language.
+- **OpenCV**: For video and image processing.
+- **TensorFlow Object Detection API**: For object detection models.
+- **Langchain**: LLM agent integration.
+- **smtp**: Sending real-time alerts.
 
 ## Team Members Responsibilities
 - **Hemang Gandhi**:
-  - **Lead Role**: Software implementation, algorithm design, and technical research.
-  - **Tasks**: Implement the LLM agents, integrate them with sensor data, and ensure that the system runs smoothly.
+  - **Role**: Software implementation, algorithm design and networking
   
 - **Manay Gala**:
-  - **Lead Role**: Setup, technical research and documentation.
-  - **Tasks**: Handle the system setup, assist with networking aspects (if necessary), and write user and technical documentation.
+  - **Role**: Setup, technical research and documentation.
 
 ## Project Timeline
 
-### Week 1 (End of September)
-- Research LLM agents and finalize project setup.
-- Coordinate with team members, assign roles and responsibilities.
+### Week 1:
+- Research OpenCV, LLM, and finalize architecture.
 
-### Week 2 (Early October)
-- Build basic LLM agents for core functions (fire and intruder detection).
-- Set up development environment and test initial integration.
+### Week 2:
+- Start motion detection module and basic video feed testing.
 
-### Week 3 (Mid October)
-- Test LLM agents with simulated data for fire/intruder detection.
-- **Check-in 1**: Present progress, receive feedback, and adjust.
+### Week 3:
+- Integrate LLM for tampering detection.
+- **Check-in 1**: Present progress.
 
-### Week 4 (Late October)
-- Refine LLM agents based on feedback.
-- Continue development and focus on system architecture.
+### Week 4:
+- Refine motion detection, reduce false positives.
 
-### Week 5 (Early November)
-- Integrate additional features (e.g., stray animal detection).
-- Start developing the user interface for monitoring and alerts.
+### Week 5:
+- Add SMTP for real-time email alerts.
+- Test in different conditions.
 
-### Week 6 (Mid November)
-- Conduct full system test for real-time detection and response.
-- **Check-in 2**: Present near-final system and refine based on feedback.
+### Week 6:
+- Full system testing with datasets.
+- **Check-in 2**: Present system for feedback.
 
-### Week 7 (Late November)
-- Finalize user interface and system integration.
-- Continue testing for stability and address any issues.
+### Week 7:
+- Finalize night vision and ensure stability.
 
-### Week 8 (Early December)
-- Finalize LLM agents and test the entire system under real-world scenarios.
-- Polish system usability and user experience.
+### Week 8:
+- Finalize documentation and record demo.
 
-### Week 9 (Mid December)
-- Record demonstration video, highlighting key features.
-- Prepare final technical and user documentation.
-- **Check-in 3**: Present final project and make last adjustments.
+### Week 9:
+- Final system tests.
+- **Check-in 3**: Present completed project.
 
-### Week 10 (Late December)
-- Perform final system testing to ensure everything works smoothly.
-- Review demo video, documentation, and code for submission.
+### Week 10:
+- Review all deliverables.
 
-### Week 11 (Submission Week)
-- Submit final project with demo video, complete documentation, and code.
-- Ensure all deliverables meet project requirements.
+### Week 11:
+- Submit final project.
 
 ## References
 - Langchain Documentation: [Langchain Framework](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)
