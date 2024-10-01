@@ -15,19 +15,31 @@ Windows are one of the most vulnerable entry points in any home. Many home secur
 
 
 ## Deliverables
-- Fully functional window tampering detection system using OpenCV and LLM agents.
-- Evaluation of the system on multiple datasets, covering different scenarios.
-- Real-time alerts via SMS or email when tampering is detected.
-- Performance analysis including accuracy, false positive rates, and adaptability across datasets.
-- Comprehensive user documentation for setup and usage.
+- Window tampering detection system using OpenCV for real-time motion detection and LLM agents for activity classification. 
+
+- Real time alert system that alerts homeowners via SMS or email when activity is detected.
+
+- Modular codebase for easy addition of more entry points. 
+
+- Low light detection and night vision for 24/7 monitoring.
+
+- Automatic recording of tampering events for review or evidence. 
+
+- Adapts to data over time, gets better and reduces false positives.
 
 ## System Blocks
 - **LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs and making decisions.
+- 
 - **Sensor Integration**: Modules that process data from cameras or sensors (like motion detectors, smoke alarms) and feed this data to the LLM.
+- 
 - **Night Vision**: Enhances video processing for low-light conditions, ensuring 24/7 monitoring.
+- 
 - **Dataset Integration**: Trains and tests the system on multiple datasets to handle various conditions like lighting and environment.
+- 
 - **Notification System**: Alerts the user via phone or other devices when a threat is detected
+- 
 - **Recording Module**: Records and stores footage of suspicious activity for later review.
+- 
 - **Data Processing**: Handles the incoming data from various sensors and prepares it for analysis by the LLM.
 
 ## Hardware/Software Requirements
