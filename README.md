@@ -5,10 +5,10 @@ The windows in any house are considered to be one of the weak spots in the house
 
 
 ## Design Goals:
--Create a smart monitoring system for windows, capable of detecting abnormalities in real time from live video feeds.
--Track intruders or actions that may not be lawful as a result of disrupting the normal system by analyzing the motion of objects adjacent to the windows using OpenCV.
--Minimize the number of unnecessary alarms by applying an artificial intelligence approach such that pets/script blocking or other forms of activity do not result in an alarm.
--Introduce features for homeowners that will swiftly inform them of anything unusual happening at their place, thereby allowing for quick response.
+- Create a smart monitoring system for windows, capable of detecting abnormalities in real time from live video feeds.
+- Track intruders or actions that may not be lawful as a result of disrupting the normal system by analyzing the motion of objects adjacent to the windows using OpenCV.
+- Minimize the number of unnecessary alarms by applying an artificial intelligence approach such that pets/script blocking or other forms of activity do not result in an alarm.
+- Introduce features for homeowners that will swiftly inform them of anything unusual happening at their place, thereby allowing for quick response.
 
 ## Deliverables
 - Fully functional window tampering detection system using OpenCV and LLM agents.
