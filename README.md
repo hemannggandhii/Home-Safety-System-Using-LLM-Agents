@@ -1,21 +1,21 @@
 # Home Safety System Using LLM Agents
 
 ## Motivation
-The windows in any house are considered to be one of the weak spots in the house, due to the ease of access they offer. Instead of giving a chance to a skilled professional to break in the house, an intruder would possibly take advantage of these windows and many other uncovered entrances. All the systems predicates on the sensors are for identification rather than recognition of the latent errors. The purpose of this research is to build detection in all system approaches to how anomalies magnitude of playing losing is achieved even when cluster algorithms have not settled the inhomogeneity problem in isolation of null data. Detection of attempts to make windows irrelevant can be done using different ways including visual in remote systems, mechanics in the local advanced control systems and even software. Technology powered by image processors and AI algorithms is proposed to deliver high accuracy real-time performances to an end user.
+Windows are one of the most vulnerable entry points in any home. Many home security systems rely on hardware sensors for window security, which may result in false alarms. This project aims to build a software-based solution using OpenCV and Large Language Models (LLMs) to detect tampering attempts on windows. By leveraging modern image processing techniques and AI reasoning, the system will identify suspicious activity in real-time and notify homeowners, offering a more intelligent and scalable, security solution.
 
 
-## Design Goals:
-- Create a smart monitoring system for windows, capable of detecting abnormalities in real time from live video feeds.
-- Track intruders or actions that may not be lawful as a result of disrupting the normal system by analyzing the motion of objects adjacent to the windows using OpenCV.
-- Minimize the number of unnecessary alarms by applying an artificial intelligence approach such that pets/script blocking or other forms of activity do not result in an alarm.
-- Introduce features for homeowners that will swiftly inform them of anything unusual happening at their place, thereby allowing for quick response.
+## Design Goals
+- **Real-Time Monitoring**: Continuously monitor windows using video feeds.
+- **Intelligent Detection**: Use OpenCV for motion detection and LLM agents to classify movements as normal or suspicious.
+- **Instant Alerts**: Notify homeowners immediately via SMS or email upon detecting tampering.
+- **Minimize False Positives**: Reduce false alarms by differentiating between harmless and suspicious movements.
 
 ## Deliverables
-- Detecting Window tampering through OpenCV and LMT agents.
-- Trial runs on variety of datasets and types.
-- In case of any tampering detection, there should be instantaneous, real-time warning through SMS or Email.
-- Assessment entails calculating measure such as precisely, false and true negative as well as how the results can be apolied to kernels of varying sizes.
-- Full guide covering setup and usage of the solution.
+- Fully functional window tampering detection system using OpenCV and LLM agents.
+- Evaluation of the system on multiple datasets, covering different scenarios.
+- Real-time alerts via SMS or email when tampering is detected.
+- Performance analysis including accuracy, false positive rates, and adaptability across datasets.
+- Comprehensive user documentation for setup and usage.
 
 ## System Blocks
 - **LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs and making decisions.
@@ -28,7 +28,7 @@ The windows in any house are considered to be one of the weak spots in the house
 
 ## Hardware/Software Requirements
 ## Software Requirements
-- **Python**: Core programming language.
+- **Python**: programming language.
 - **OpenCV**: For video and image processing.
 - **TensorFlow Object Detection API**: For object detection models.
 - **Langchain**: LLM agent integration.
