@@ -26,12 +26,9 @@ Windows are one of the most vulnerable entry points in any home. Many home secur
 - **Recording Module**: Records and stores footage of suspicious activity for later review.
 - **Data Processing**: Handles the incoming data from various sensors and prepares it for analysis by the LLM.
 
-## Software Requirements
+## Hardware/Software Requirements
 - **Python**: programming language.
-- **OpenCV**: For video and image processing.
-- **TensorFlow Object Detection API**: For object detection models.
-- **Langchain**: LLM agent integration.
-- **smtp**: Sending real-time alerts.
+- Laptop with CUDA-enabled GPU
 
 ## Team Members Responsibilities
 - **Hemang Gandhi**:
