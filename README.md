@@ -5,10 +5,14 @@ Windows are one of the most vulnerable entry points in any home. Many home secur
 
 
 ## Design Goals
-- **Real-Time Monitoring**: Continuously monitor windows using video feeds.
-- **Smart Detection**: Use OpenCV for motion detection and LLM agents to classify movements as normal or suspicious.
-- **Instant Alerts**: Notify homeowners immediately via SMS or email upon detecting tampering.
-- **Minimize False Positives**: Reduce false alarms by differentiating between harmless and suspicious movements.
+- Live video feeds monitor windows using OpenCV for real-time motion detection.
+
+- Machine learning LLM agents will classify detected motion as normal (e.g., wind or pets) or suspicious (e.g., tampering). These models learn and improve over time.
+
+- Alerts will be sent to homeowners via SMS or email if suspicious activity is detected.
+
+- Advanced ML algorithms reduce false alarms by distinguishing between harmless movements and real threats.
+
 
 ## Deliverables
 - Fully functional window tampering detection system using OpenCV and LLM agents.
