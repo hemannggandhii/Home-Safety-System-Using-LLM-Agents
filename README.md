@@ -1,7 +1,8 @@
 # Home Safety System Using LLM Agents
 
 ## Motivation
-Windows are one of the most vulnerable entry points in any home. Many home security systems rely on hardware sensors for window security, which may result in false alarms. This project aims to build a  solution using OpenCV and Large Language Models (LLMs) to detect tampering attempts on windows. By leveraging modern image processing techniques and AI reasoning, the system will identify suspicious activity in real-time and notify homeowners, offering a more intelligent and scalable security solution.
+The windows in any house are considered to be one of the weak spots in the house, due to the ease of access they offer. Instead of giving a chance to a skilled professional to break in the house, an intruder would possibly take advantage of these windows and many other uncovered entrances. All the systems predicates on the sensors are for identification rather than recognition of the latent errors. The purpose of this research is to build detection in all system approaches to how anomalies magnitude of playing losing is achieved even when cluster algorithms have not settled the inhomogeneity problem in isolation of null data. Detection of attempts to make windows irrelevant can be done using different ways including visual in remote systems, mechanics in the local advanced control systems and even software. Technology powered by image processors and AI algorithms is proposed to deliver high accuracy real-time performances to an end user.
+
 
 ## Design Goals:
 - Design a smart system that continuously monitors windows for suspicious activity in real-time using live video feeds.
