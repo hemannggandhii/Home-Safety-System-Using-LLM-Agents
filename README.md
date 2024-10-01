@@ -11,11 +11,11 @@ The windows in any house are considered to be one of the weak spots in the house
 - Introduce features for homeowners that will swiftly inform them of anything unusual happening at their place, thereby allowing for quick response.
 
 ## Deliverables
-- Fully functional window tampering detection system using OpenCV and LLM agents.
-- Evaluation of the system on multiple datasets, covering different scenarios.
-- Real time alerts via SMS or email when tampering is detected.
-- Performance analysis including accuracy, false positive rates, and adaptability across datasets.
-- Comprehensive user documentation for setup and usage.
+- Detecting Window tampering through OpenCV and LMT agents.
+- Trial runs on variety of datasets and types.
+- In case of any tampering detection, there should be instantaneous, real-time warning through SMS or Email.
+- Assessment entails calculating measure such as precisely, false and true negative as well as how the results can be apolied to kernels of varying sizes.
+- Full guide covering setup and usage of the solution.
 
 ## System Blocks
 - **LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs and making decisions.
