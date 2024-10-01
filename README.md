@@ -6,7 +6,7 @@ Windows are one of the most vulnerable entry points in any home. Many home secur
 
 ## Design Goals
 - **Real-Time Monitoring**: Continuously monitor windows using video feeds.
-- **Intelligent Detection**: Use OpenCV for motion detection and LLM agents to classify movements as normal or suspicious.
+- **Smart Detection**: Use OpenCV for motion detection and LLM agents to classify movements as normal or suspicious.
 - **Instant Alerts**: Notify homeowners immediately via SMS or email upon detecting tampering.
 - **Minimize False Positives**: Reduce false alarms by differentiating between harmless and suspicious movements.
 
