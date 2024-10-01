@@ -17,13 +17,13 @@ Windows are one of the most vulnerable entry points in any home. Many home secur
 - Comprehensive user documentation for setup and usage.
 
 ## System Blocks
-**LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs and making decisions.
-**Sensor Integration**: Modules that process data from cameras or sensors (like motion detectors, smoke alarms) and feed this data to the LLM.
-**Night Vision**: Enhances video processing for low-light conditions, ensuring 24/7 monitoring.
-**Dataset Integration**: Trains and tests the system on multiple datasets to handle various conditions like lighting and environment.
-**Notification System**: Alerts the user via phone or other devices when a threat is detected
-**Recording Module**: Records and stores footage of suspicious activity for later review.
-**Data Processing**: Handles the incoming data from various sensors and prepares it for analysis by the LLM.
+- **LLM Reasoning Engine**: The heart of the system, responsible for analyzing real-time inputs and making decisions.
+- **Sensor Integration**: Modules that process data from cameras or sensors (like motion detectors, smoke alarms) and feed this data to the LLM.
+- **Night Vision**: Enhances video processing for low-light conditions, ensuring 24/7 monitoring.
+- **Dataset Integration**: Trains and tests the system on multiple datasets to handle various conditions like lighting and environment.
+- **Notification System**: Alerts the user via phone or other devices when a threat is detected
+- **Recording Module**: Records and stores footage of suspicious activity for later review.
+- **Data Processing**: Handles the incoming data from various sensors and prepares it for analysis by the LLM.
 
 ## Hardware/Software Requirements
 ## Software Requirements
